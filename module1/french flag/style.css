@@ -1,0 +1,28 @@
+body {
+    background-color: #ccc;
+}
+
+.french-flag {
+    padding:33.33%;
+    background-color: white;
+    position: relative;
+}
+
+.french-flag::before {
+    content:"";
+    width: 33.33%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.french-flag::after {
+    content:"";
+    width: 33.33%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

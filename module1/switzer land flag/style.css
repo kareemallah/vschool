@@ -1,0 +1,163 @@
+#s-flag {
+    background-color: red;
+    height: 305px;
+    width: 525px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#v-cross {
+    background-color: white;
+    height: 200px;
+    width: 70px;
+    position: absolute;
+    left: 220px;
+    top: 55px;
+}
+
+#h-cross {
+    background-color: white;
+    height: 70px;
+    width: 190px;
+    position: absolute;
+    right: 177px;
+    bottom: 118px;
+}
+
+#sweden-flag {
+    margin-top: 25px;
+    background-color: blue;
+    height: 305px;
+    width: 525px;
+    position: relative;
+}
+
+#sweden-v {
+    background-color: yellow;
+    height: 305px;
+    width: 80px;
+    position: absolute;
+    left: 120px;
+}
+
+#sweden-h {
+    background-color: yellow;
+    height: 80px;
+    width: 525px;
+    position: absolute;
+    bottom: 115px;
+}
+
+#gambia-flag {
+    margin-top: 25px;
+    background-color: white;
+    height: 305px;
+    width: 525px;
+    position: relative;
+}
+
+#gambia-t {
+    background-color: red;
+    height: 100px;
+}
+
+#gambia-m {
+    background-color: blue;
+    height: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#gambia-b {
+    background-color: green;
+    height: 100px;
+}
+
+#tonga-flag {
+    margin-top: 25px;
+    background-color: red;
+    height: 305px;
+    width: 525px;
+    position: relative;
+}
+
+#t-whitebox {
+    background-color: white;
+    height: 153px;
+    width: 220px;
+}
+
+#tonga-v {
+    background-color: red;
+    height: 100px;
+    width: 35px;
+    position: absolute;
+    bottom: 180px;
+    left: 90px
+}
+
+#tonga-h {
+    background-color: red;
+    height: 35px;
+    width: 100px;
+    position: absolute;
+    bottom: 212px;
+    left: 57px;
+}
+
+#japan-flag {
+    margin-top: 25px;
+    border: 1px solid black;
+    height: 305px;
+    width: 525px;
+    position: relative;
+    background-color: white;
+}
+
+#j-red {
+    content: "";
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    background-color: red;
+    top: 20%;
+    left: 30%;
+    border-radius: 60%;
+}
+
+
+
+
+.flag {
+  border: 1px solid #e3e3e3;
+  box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.1);
+  height: 20.8em;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
+  width: 31.25em;
+  font-size: 1.75vw;
+}
+.greece {
+  background-color: white;
+  background-image: linear-gradient(to bottom, $hellenic-blue 11.11%, white 11.11%, white 22.22%, $hellenic-blue 22.22%, $hellenic-blue 33.33%, white 33.33%, white 44.44%, $hellenic-blue 44.44%, $hellenic-blue 55.55%, white 55.55%, white 66.66%, $hellenic-blue 66.66%, $hellenic-blue 77.77%, white 77.77%, white 88.88%, $hellenic-blue 88.88%, $hellenic-blue 100%);
+  &:before,
+  &:after {
+    content: ''; 
+    position: absolute;
+  }
+  &:before {
+    width: 37%;
+    height: 55.16%;
+    background-image: linear-gradient(to bottom, $hellenic-blue 39.8%, white 39.8%, white 59.8%,$hellenic-blue 59.8%);
+    top: 0;
+    left: 0;
+  }
+  &:after {
+    background: white;
+    top: 0;
+    left: 14.7%;
+    height: 56%;
+    width: 7.5%;
+  }
+}

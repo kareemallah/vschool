@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+// mobile design first 
+#try {
+    border: 2px solid black;
+    height: 300px;
+}
+
+#try > h1 {
+    background-color: dodgerblue;
+}
+
+/* Larger Phones */
+@media only screen and (min-width: 400px){
+    
+    #try {
+        border: 2px dashed green;
+     
+    }
+
+    #try > h1 {
+        background-color: firebrick;
+    }
+        
+}
+
+//tablets screens
+@media only screen and (min-width: 550px) {
+    #try {
+        border: 5px dotted orange;
+    }
+
+    #try > h1 {
+        background-color: purple;
+    }
+}

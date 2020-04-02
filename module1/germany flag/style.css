@@ -1,0 +1,25 @@
+.german-flag {
+    padding: 30%;
+    background-color: red;
+    position: relative;
+}
+
+.german-flag::before {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.german-flag::after {
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

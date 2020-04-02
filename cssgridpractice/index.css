@@ -1,0 +1,217 @@
+.grid-container {
+    border: 1px soid black;
+    height: 500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom: 25px;
+    
+}
+
+.grid-container2 {
+    height: 500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom: 25px;
+}
+.red2 {
+    border: 6px solid white;
+    background-color: red;
+    grid-column: 1 / -1;
+}
+
+.blue2 {
+    border: 6px solid white;
+    background-color: blue;
+    grid-column: 1 / 3;
+    grid-row: 2 / -1;
+}
+
+.green2 {
+    border: 6px solid white;
+    background-color: green;
+    grid-column: 3 / -1;
+}
+
+.purple2 {
+    border: 6px solid white;
+    background-color: purple;
+    grid-column: 3 / 4;
+    grid-row: 3 / -1;
+}
+
+.purple3 {
+    border: 6px solid white;
+    background-color: purple;
+    grid-column: 4 / -1;
+    grid-row: 3 / -1;
+}
+
+.red {
+    border: 6px solid white;
+    background-color: red;
+    grid-column: 1 / 3;
+}
+
+.blue {
+    border: 6px solid white;
+    background-color: blue;
+    grid-column: 3 / -1
+}
+
+.green {
+    border: 6px solid white;
+    background-color: green;
+    grid-column: 1 / 2;
+}
+
+.purple {
+    border: 6px solid white;
+    background-color: purple;
+    grid-column: 2 / -1;
+}
+
+.yellow {
+    border: 6px solid white;
+    background-color: yellow;
+    grid-column: 1 / -1
+}
+
+.layouts {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 7px;
+}
+
+.layouts div {
+    border-radius: 5px;
+}
+
+.header {
+    background-color: lightgray;
+}
+
+.sidebar {
+    background-color: gray;
+}
+
+.content {
+    background-color: darkgray;
+}
+
+.sidebar2 {
+    background-color: silver;
+}
+
+.footer {
+    background-color: lightgrey;
+}
+
+@media (max-width: 600px) {
+
+    .layouts {
+        height: 500px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 7px; 
+    }
+
+    .header {
+        background-color: lightgray;
+        grid-column: 1 /-1;
+    }
+    
+    .sidebar {
+        background-color: gray;
+        grid-column: 1 / -1;
+    }
+    
+    .content {
+        background-color: darkgray;
+        grid-column: 1 / -1;
+        grid-row: 3 / span 2;
+    }
+    
+    .sidebar2 {
+        background-color: silver;
+        grid-column: 1 / -1;
+    }
+    
+    .footer {
+        background-color: lightgrey;
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .layouts {
+        height: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 7px; 
+    }
+
+    .header {
+        background-color: lightgray;
+        grid-column: 1 / -1;
+    }
+    
+    .sidebar {
+        background-color: gray;
+        grid-column: 1 / 2;
+    }
+    
+    .content {
+        background-color: darkgray;
+        grid-column: 2 / -1
+    }
+    
+    .sidebar2 {
+        background-color: silver;
+        grid-column: 1 / -1;
+    }
+    
+    .footer {
+        background-color: lightgrey;
+        grid-column: 1 / -1;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header {
+        background-color: lightgray;
+        grid-column: 1 / -1;
+    }
+    
+    .sidebar {
+        background-color: gray;
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+    }
+    
+    .content {
+        background-color: darkgray;
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+    }
+    
+    .sidebar2 {
+        background-color: silver;
+        grid-column: 4 / -1;
+        grid-row: 2 / 4;
+    }
+    
+    .footer {
+        background-color: lightgrey;
+        grid-column: 1 / -1;
+    }
+}
+
